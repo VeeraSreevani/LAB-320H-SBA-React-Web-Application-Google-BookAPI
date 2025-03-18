@@ -1,3 +1,30 @@
+body {
+ 
+  background-image: url('https://www.shutterstock.com/image-vector/collection-cute-bee-we-love-600nw-2008740770.jpg'); 
+  background-position: center;
+  background-repeat: no-repeat;
+  height:100vh;
+  /* background-size:cover; */
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;

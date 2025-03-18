@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react'
 import './App.css'
 import BookSearch from './components/BookSearch';
 import Form from './components/Form'
+// import { Carousel } from "@material-tailwind/react";
 // import Carousel from './components/Carousel'
 
 function App() {
@@ -23,10 +24,11 @@ function App() {
 
   return (
    <div>
+    <h1 className="heading">Welcome to Sree's BookHive</h1>
     
     <Form BookSearch = {getBooks}/>
     <BookSearch books={books}/>
-    {/* <Carousel/> */}
+    
   </div>
       
   )

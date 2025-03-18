@@ -14,7 +14,7 @@ function Form(props){
     }
 return(
     <div classname="form-container">
-        <h1 className="heading">Welcome to Sree's BookHive</h1>
+        
         <form className= "form" onSubmit={handleSubmit}>
             <input className="searchbar"
                 type="text"

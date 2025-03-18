@@ -16,6 +16,7 @@
     margin-bottom: 15px;
     background-color: orange;
     text-align: center;
+    
   }
   
   /* Styling the search input field */
@@ -30,7 +31,8 @@
     box-sizing: border-box;
     align-items: center;
     margin-left: 200px;
-    
+    background-image: url('https://beebookhive.co.uk/wp-content/uploads/2018/07/beebook-hive.png?w=391&h=392'); 
+       
   }
   
   /* Styling the submit button */
@@ -45,6 +47,7 @@
     cursor: pointer;
     box-sizing: border-box;
     transition: background-color 0.3s ease;
+    
   }
   
   .btn:hover {
