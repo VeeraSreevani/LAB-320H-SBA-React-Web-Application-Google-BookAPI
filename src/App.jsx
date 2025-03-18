@@ -4,14 +4,14 @@ import BookSearch from './components/BookSearch';
 import Form from './components/Form'
 // import { Carousel } from "@material-tailwind/react";
 // import Carousel from './components/Carousel'
+console.log(import.meta.env.VITE_GOOGLEBOOK_API_KEY)
 
 function App() {
-  const apiKey = 'AIzaSyDbfV4YzPOmXCsicij12qH7Wcbh6GVb_qk'
   const [books, setBooks] = useState([]);
-
+  const apiKey = import.meta.env.VITE_GOOGLEBOOK_API_KEY
   const getBooks = async(searchTerm)=>{
     try{
-      const res= await fetch(`https://www.googleapis.com/books/v1/volumes?q=${searchTerm} & key=${apiKey}`);
+      const res= await fetch(`https://www.googleapis.com/books/v1/volumes?q=${searchTerm}&key=${apiKey}`);
       const data= await res.json();
       console.log(data);
       setBooks(data.items);
