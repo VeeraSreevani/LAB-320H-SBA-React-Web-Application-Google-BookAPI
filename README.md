@@ -1,4 +1,14 @@
 # React + Vite
+# Technologies
+html, css, js, React, React Bootstrap, Fetch API
+# Approach
+created Online book store by searching with key terms title/author/date.. and gives all the details of book.. preview link will give detailed explanation of book.. 
+# Link to live site
+
+
+# USAGE INSTRUCTIONS:
+give book title/author name and will give you all the related book info
+# unsolved problems: try to implement carousal and favorite list still not completed..
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
